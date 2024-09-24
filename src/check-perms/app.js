@@ -5,21 +5,22 @@ export default {
 	description: 'Checks whether a flow is triggered using a collections read permissions',
 	overview: ({ collection }) => [
 		{
-			label: 'Collection',
+			label: '$t:collection',
 			text: collection,
 		},
 	],
 	options: [
 		{
 			field: 'collection',
-			name: 'Collection',
 			type: 'string',
+			name: '$t:collection',
 			meta: {
-				width: 'full',
-				interface: 'collection-item-dropdown',
+				interface: 'system-collection',
 				options: {
+					includeSystem: true,
 				},
 				width: 'full',
+				required: true,
 			},
 		},
 	],

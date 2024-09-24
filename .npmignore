@@ -1,0 +1,7 @@
+database
+examples
+node_modules
+src
+.gitignore
+data.db
+docker-compose.yml

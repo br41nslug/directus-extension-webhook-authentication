@@ -2,6 +2,22 @@
 
 This bundle contains 2 operations aimed at helping provide explicit authentication to Directus Flows using the WebHook trigger.
 
+## Installation
+
+The package is published to npm:
+`npm install directus-extension-webhook-authentication`
+
+**Manual Installation**
+- Download or fork the repository
+- Install the requirements\
+  `npm install`
+- Build the extension\
+  `npm run build`
+- Move the entire project to your extension folder (only the `package.json` and `dist` folder are strictly necessary)\
+  `mv ./ extensions/directus-extension-webhook-authentication`
+- Restart your Directus instance
+
+
 ## 1. Check Authentication Operation
 
 This operation allows you to check for a certain level of authentication:

@@ -31,7 +31,7 @@ export default {
 	options: [
 		{
 			field: 'level',
-			name: 'Athentication Required',
+			name: 'Authentication Required',
 			type: 'string',
 			schema: {
 				default_value: 'user',
